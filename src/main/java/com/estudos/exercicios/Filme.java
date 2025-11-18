@@ -1,19 +1,16 @@
 package com.estudos.exercicios;
 
 public class Filme {
-
-    String nome;
-    int anoDeLancamento;
-    int duracaoEmMinutos;
+    private String nome;
+    private int anoDeLancamento;
     boolean incluidoNoPlano;
-    double somaDasAvaliacoes;
-    int totalDeAvaliacoes;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
+    private int duracaoEmMinutos;
 
     void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
-        System.out.println("Duração em minutos: " + duracaoEmMinutos);
-        System.out.println("Incluído no plano: " + incluidoNoPlano);
     }
 
     void avalia(double nota) {
@@ -22,7 +19,31 @@ public class Filme {
     }
 
     double pegaMedia() {
-        return somaDasAvaliacoes / totalDeAvaliacoes;
+        double media = somaDasAvaliacoes / totalDeAvaliacoes;
+        return media;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAnoDeLancamento(int ano) {
+        this.anoDeLancamento = ano;
+    }
+
+    public void setIncluidoNoPlano(boolean incluir) {
+        this.incluidoNoPlano = incluir;
+    }
+
+    public void setDuracaoEmMinutos(int duracao) {
+        this.duracaoEmMinutos = duracao;
+    }
+
+    public int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+
+    public int getsomaDasAvaliacoes(int somaDasAvaliacoes) {
+        return somaDasAvaliacoes;
+    }
 }
