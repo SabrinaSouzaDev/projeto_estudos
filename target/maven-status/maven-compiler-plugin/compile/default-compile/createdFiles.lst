@@ -1,4 +1,5 @@
 com\estudos\exercicios\Produto1.class
+com\estudos\exercicios\Principal2.class
 com\estudos\exercicios\Programa.class
 com\estudos\exercicios\Aluno.class
 com\estudos\exercicios\exercicios.class
@@ -7,6 +8,7 @@ com\estudos\exercicios\Filme.class
 com\estudos\exercicios\Pessoa.class
 com\estudos\exercicios\Calculadora.class
 com\estudos\exercicios\Saudacao.class
+com\estudos\exercicios\Conta.class
 com\estudos\App.class
 com\estudos\exercicios\Produto.class
 com\estudos\exercicios\Carro.class
