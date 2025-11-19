@@ -41,4 +41,36 @@ public class Conta {
     public double getSaldo() {
         return saldo;
     }
+
+    public void sacar(double valor) {
+        if (valor <= 0) {
+            System.out.println("Valor deve ser maior do que zero!");
+        } else if (saldo >= valor) {
+            saldo -= valor;
+            System.out.println("Saque realizado com sucesso. Saldo atual: " + saldo);
+        } else {
+            System.out.println("Saldo insuficiente.");
+        }
+    }
+
+    public void depositar(double valor) {
+        if (valor > 0) {
+            saldo += valor;
+            System.out.println("Depósito realizado com sucesso. Saldo atual: " + saldo);
+        } else {
+            System.out.println("Valor deve ser maior do que zero!");
+        }
+    }
+
+    public static void main(String[] args) {
+        Conta minhaConta = new Conta();
+        minhaConta.setNumero(12345);
+        minhaConta.setAgencia(678);
+        minhaConta.depositar(500.0);
+        minhaConta.sacar(200.0);
+        System.out.println("Número da conta: " + minhaConta.getNumero());
+        System.out.println("Agência: " + minhaConta.getAgencia());
+        System.out.println("Saldo final: " + minhaConta.getSaldo());
+    }
+
 }
