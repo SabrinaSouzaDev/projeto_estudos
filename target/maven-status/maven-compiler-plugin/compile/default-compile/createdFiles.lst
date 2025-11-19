@@ -16,6 +16,7 @@ com\estudos\exercicios\LivrosAutor.class
 com\estudos\exercicios\Conta.class
 com\estudos\App.class
 com\estudos\exercicios\Produto.class
+com\estudos\exercicios\CalculadoraDeTempo.class
 com\estudos\exercicios\Carro.class
 com\estudos\exercicios\AlunoMedia.class
 com\estudos\exercicios\MediaAlunos.class

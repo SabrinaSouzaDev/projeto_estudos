@@ -35,8 +35,12 @@ public class Filme {
         this.incluidoNoPlano = incluir;
     }
 
-    public void setDuracaoEmMinutos(int duracao) {
-        this.duracaoEmMinutos = duracao;
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
     }
 
     public int getTotalDeAvaliacoes() {
@@ -46,4 +50,34 @@ public class Filme {
     public int getsomaDasAvaliacoes(int somaDasAvaliacoes) {
         return somaDasAvaliacoes;
     }
+
+    public static void main(String[] args) {
+        Filme filme = new Filme();
+        filme.setNome("O Poderoso Chefão");
+        filme.setAnoDeLancamento(1972);
+        filme.setDuracaoEmMinutos(175);
+
+        filme.exibeFichaTecnica();
+
+        filme.avalia(9.5);
+        filme.avalia(8.7);
+        filme.avalia(9.0);
+
+        Filme filme2 = new Filme();
+        filme2.setNome("Pulp Fiction");
+        filme2.setAnoDeLancamento(1994);
+        filme2.setDuracaoEmMinutos(154);
+        filme2.exibeFichaTecnica();
+        filme2.avalia(9.3);
+        filme2.avalia(8.9);
+        filme2.avalia(9.1);
+
+        System.out.println("Média das avaliações: " + filme.pegaMedia());
+
+        CalculadoraDeTempo calcula = new CalculadoraDeTempo();
+        calcula.inclui(filme);
+        System.out.println("Tempo total dos filmes: " + calcula.getTempoTotal() + " minutos");
+
+    }
+
 }
