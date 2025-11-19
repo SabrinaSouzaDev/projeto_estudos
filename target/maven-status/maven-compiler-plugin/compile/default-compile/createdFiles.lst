@@ -6,11 +6,15 @@ com\estudos\exercicios\exercicios.class
 com\estudos\exercicios\Musica.class
 com\estudos\exercicios\Filme.class
 com\estudos\exercicios\Pessoa.class
+com\estudos\exercicios\Metodos.class
 com\estudos\exercicios\Calculadora.class
 com\estudos\exercicios\Saudacao.class
+com\estudos\exercicios\LivrosAutor.class
 com\estudos\exercicios\Conta.class
 com\estudos\App.class
 com\estudos\exercicios\Produto.class
 com\estudos\exercicios\Carro.class
+com\estudos\exercicios\AlunoMedia.class
+com\estudos\exercicios\MediaAlunos.class
 com\estudos\exercicios\Principal.class
 com\estudos\exercicios\Teste1.class
