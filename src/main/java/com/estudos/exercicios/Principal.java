@@ -2,19 +2,44 @@ package com.estudos.exercicios;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("O Poderoso Chefão");
-        meuFilme.setAnoDeLancamento(1970);
-        meuFilme.setIncluidoNoPlano(true);
-        meuFilme.setDuracaoEmMinutos(180);
+        Filme favorito = new Filme();
+        favorito.setNome("The Matrix");
+        favorito.setAnoDeLancamento(1999);
+        favorito.setDuracaoEmMinutos(135);
+        favorito.setIncluidoNoPlano(true);
 
-        meuFilme.exibeFichaTecnica();
-        meuFilme.avalia(8);
-        meuFilme.avalia(5);
-        meuFilme.avalia(10);
+        Filme outro = new Filme();
+        outro.setNome("John Wick");
+        outro.setAnoDeLancamento(2014);
+        outro.setDuracaoEmMinutos(101);
+        outro.setIncluidoNoPlano(true);
+        outro.setGenero(new String[] { "Ação", "Thriller" });
+        System.out.print("Favorito: " + outro.getNome() + " (");
+        outro.imprimirGeneros();
+        System.out.println(")");
 
-        System.out.println(meuFilme.pegaMedia());
-        System.out.println(meuFilme.getTotalDeAvaliacoes());
+        Serie serie = new Serie();
+        serie.setNome("La Casa de Papel");
+        serie.setAnoDeLancamento(2017);
+        serie.setIncluidoNoPlano(true);
+        serie.setAtiva(true);
+        serie.setTemporadas(5);
+        serie.setEpisodiosPorTemporada(10);
+        serie.setMinutosPorEpisodio(45);
+        serie.setIncluidoNoPlano(true);
+        serie.setGenero(new String[] { "Ação", "Crime", "Drama" });
+        serie.setDuracaoEmMinutos(
+                serie.getTemporadas() * serie.getEpisodiosPorTemporada() * serie.getMinutosPorEpisodio());
+        System.out.print("Favorito: " + serie.getNome() + " (");
+        serie.imprimirGeneros();
+        System.out.println(")");
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.Inclui(favorito);
+        calculadora.Inclui(outro);
+        calculadora.Inclui(serie);
+
+        System.out.println("Tempo total: " + calculadora.getTempoTotal());
 
     }
 }
