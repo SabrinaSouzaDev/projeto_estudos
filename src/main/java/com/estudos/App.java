@@ -1,17 +1,11 @@
 package com.estudos;
 
-// import com.estudos.exercicios.Principal;
 import com.estudos.exercicios.Principal;
-
-// import com.estudos.exercicios.Principal;
-// // import com.estudos.exercicios.ExemploScanner;
-// // import com.estudos.exercicios.ExemploScanner;
-// import com.estudos.exercicios.Teste1;
+import com.estudos.exercicios.PrincipalCarros;
 
 public class App {
     public static void main(String[] args) {
-        Principal.main(args);
-        // // ExemploScanner.main(args);
+        PrincipalCarros.main(args);
     }
 
 }
