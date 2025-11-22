@@ -4,7 +4,6 @@ public class Cachorro extends Animal {
     private String nome;
     private String raca;
     private int idade;
-    private String som;
 
     public String getNome() {
         return nome;
@@ -30,16 +29,17 @@ public class Cachorro extends Animal {
         this.idade = idade;
     }
 
-    public String getSom() {
-        return som;
-    }
-
-    public void setSom(String som) {
-        this.som = som;
-    }
-
     public void latir() {
         System.out.println("Latir" + getSom());
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Au Au");
+    }
+
+    public void abanarRabo() {
+        System.out.println("Cachorro abanando o rabo");
     }
 
     public static void main(String[] args) {
@@ -47,11 +47,10 @@ public class Cachorro extends Animal {
         cachorro.setNome("Rex");
         cachorro.setRaca("Labrador");
         cachorro.setIdade(3);
-        cachorro.setSom(" Au Au");
 
         System.out.println("Nome: " + cachorro.getNome());
         System.out.println("Raça: " + cachorro.getRaca());
         System.out.println("Idade: " + cachorro.getIdade() + " anos");
-        cachorro.latir();
+        cachorro.emitirSom();
     }
 }
