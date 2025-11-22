@@ -1,11 +1,10 @@
 package com.estudos;
 
-import com.estudos.exercicios.Principal;
-import com.estudos.exercicios.PrincipalCarros;
+import com.estudos.exercicios.Cachorro;
 
 public class App {
     public static void main(String[] args) {
-        PrincipalCarros.main(args);
+        Cachorro.main(args);
     }
 
 }
