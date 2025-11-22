@@ -1,5 +1,7 @@
+com\estudos\exercicios\VerificadorPrimo.class
 com\estudos\exercicios\Programa.class
 com\estudos\exercicios\ContaPoupanca.class
+com\estudos\exercicios\GeradorPrimo.class
 com\estudos\exercicios\Aluno.class
 com\estudos\exercicios\Cachorro.class
 com\estudos\exercicios\ContaCorrente.class
@@ -22,6 +24,7 @@ com\estudos\exercicios\exercicios.class
 com\estudos\exercicios\Filme.class
 com\estudos\exercicios\Metodos.class
 com\estudos\exercicios\PrincipalCarros$1Carro.class
+com\estudos\exercicios\NumerosPrimos.class
 com\estudos\exercicios\Calculadora.class
 com\estudos\exercicios\LivrosAutor.class
 com\estudos\exercicios\Conta.class
