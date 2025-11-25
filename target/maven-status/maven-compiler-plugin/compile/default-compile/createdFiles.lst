@@ -7,6 +7,7 @@ com\estudos\exercicios\Cachorro.class
 com\estudos\exercicios\ContaCorrente.class
 com\estudos\exercicios\Titulo.class
 com\estudos\exercicios\Musica.class
+com\estudos\exercicios\ComparetoTituloExemplo.class
 com\estudos\exercicios\Pessoa.class
 com\estudos\exercicios\PrincipalCarros.class
 com\estudos\exercicios\Saudacao.class
@@ -18,6 +19,7 @@ com\estudos\exercicios\Principal.class
 com\estudos\exercicios\Teste1.class
 com\estudos\exercicios\Animal.class
 com\estudos\exercicios\Produto1.class
+com\estudos\exercicios\Lists.class
 com\estudos\exercicios\Principal2.class
 com\estudos\exercicios\ContaCorrentePF.class
 com\estudos\exercicios\exercicios.class
@@ -30,6 +32,7 @@ com\estudos\exercicios\LivrosAutor.class
 com\estudos\exercicios\Conta.class
 com\estudos\exercicios\MainLists.class
 com\estudos\App.class
+com\estudos\exercicios\ExemploHasMap.class
 com\estudos\exercicios\Produto.class
 com\estudos\exercicios\Carro.class
 com\estudos\exercicios\Serie.class

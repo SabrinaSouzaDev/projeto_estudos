@@ -1,6 +1,8 @@
 
 package com.estudos.exercicios;
 
+import java.util.Comparator;
+
 public class Conta {
     private int numero;
     private int agencia;
@@ -62,6 +64,16 @@ public class Conta {
         }
     }
 
+    public int compareTo(Conta outra) {
+        if (this.saldo > outra.saldo) {
+            return 1;
+        } else if (this.saldo < outra.saldo) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+
     public static void main(String[] args) {
         Conta minhaConta = new Conta();
         minhaConta.setNumero(12345);
@@ -72,5 +84,4 @@ public class Conta {
         System.out.println("Agência: " + minhaConta.getAgencia());
         System.out.println("Saldo final: " + minhaConta.getSaldo());
     }
-
 }

@@ -31,6 +31,10 @@ public class Filme extends Titulo {
         this.anoDeLancamento = ano;
     }
 
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
     public void setIncluidoNoPlano(boolean incluir) {
         this.incluidoNoPlano = incluir;
     }

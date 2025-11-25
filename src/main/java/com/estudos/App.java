@@ -1,11 +1,12 @@
 package com.estudos;
 
-import com.estudos.exercicios.Cachorro;
-import com.estudos.exercicios.GeradorPrimo;
+import com.estudos.exercicios.ComparetoTituloExemplo;
+import com.estudos.exercicios.ExemploHasMap;
+import com.estudos.exercicios.Lists;
 
 public class App {
     public static void main(String[] args) {
-        GeradorPrimo.main(args);
+        ComparetoTituloExemplo.main(args);
     }
 
 }

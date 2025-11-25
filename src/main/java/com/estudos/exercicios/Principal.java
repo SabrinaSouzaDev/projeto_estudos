@@ -40,6 +40,5 @@ public class Principal {
         calculadora.Inclui(serie);
 
         System.out.println("Tempo total: " + calculadora.getTempoTotal());
-
     }
 }

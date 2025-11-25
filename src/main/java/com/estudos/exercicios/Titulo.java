@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Titulo {
     private String titulo;
+    private String nome;
     private List<String> genero = new ArrayList<>();
     boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
