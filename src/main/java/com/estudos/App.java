@@ -1,12 +1,10 @@
 package com.estudos;
 
-import com.estudos.exercicios.ComparetoTituloExemplo;
-import com.estudos.exercicios.ExemploHasMap;
-import com.estudos.exercicios.Lists;
+import com.estudos.exercicios.CartaoPrincipal;
 
 public class App {
     public static void main(String[] args) {
-        ComparetoTituloExemplo.main(args);
+        CartaoPrincipal.main(args);
     }
 
 }

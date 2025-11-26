@@ -12,9 +12,11 @@ com\estudos\exercicios\Pessoa.class
 com\estudos\exercicios\PrincipalCarros.class
 com\estudos\exercicios\Saudacao.class
 com\estudos\exercicios\PrincipalCarros$1ModeloCarro.class
+com\estudos\exercicios\CartaoPrincipal.class
 com\estudos\exercicios\CalculadoraDeTempo.class
 com\estudos\exercicios\AlunoMedia.class
 com\estudos\exercicios\MediaAlunos.class
+com\estudos\exercicios\ForEachUse.class
 com\estudos\exercicios\Principal.class
 com\estudos\exercicios\Teste1.class
 com\estudos\exercicios\Animal.class
@@ -23,6 +25,7 @@ com\estudos\exercicios\Lists.class
 com\estudos\exercicios\Principal2.class
 com\estudos\exercicios\ContaCorrentePF.class
 com\estudos\exercicios\exercicios.class
+com\estudos\exercicios\Compra.class
 com\estudos\exercicios\Filme.class
 com\estudos\exercicios\Metodos.class
 com\estudos\exercicios\PrincipalCarros$1Carro.class
@@ -35,6 +38,7 @@ com\estudos\App.class
 com\estudos\exercicios\ExemploHasMap.class
 com\estudos\exercicios\Produto.class
 com\estudos\exercicios\Carro.class
+com\estudos\exercicios\CartaoDeCredito.class
 com\estudos\exercicios\Serie.class
 com\estudos\exercicios\Carro$ModeloCarro.class
 com\estudos\exercicios\ModeloCarro.class
