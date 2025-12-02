@@ -13,6 +13,7 @@ com\estudos\exercicios\PrincipalCarros.class
 com\estudos\exercicios\Saudacao.class
 com\estudos\exercicios\PrincipalCarros$1ModeloCarro.class
 com\estudos\exercicios\CartaoPrincipal.class
+com\estudos\Modelos\Episodio.class
 com\estudos\exercicios\CalculadoraDeTempo.class
 com\estudos\exercicios\AlunoMedia.class
 com\estudos\exercicios\MediaAlunos.class
@@ -40,5 +41,7 @@ com\estudos\exercicios\Produto.class
 com\estudos\exercicios\Carro.class
 com\estudos\exercicios\CartaoDeCredito.class
 com\estudos\exercicios\Serie.class
+com\estudos\Modelos\Classificavel.class
+com\estudos\Modelos\FiltroRecomendacao.class
 com\estudos\exercicios\Carro$ModeloCarro.class
 com\estudos\exercicios\ModeloCarro.class

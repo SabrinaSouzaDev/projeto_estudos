@@ -1,5 +1,7 @@
 package com.estudos.exercicios;
 
+import com.estudos.Modelos.FiltroRecomendacao;
+
 public class Principal {
     public static void main(String[] args) {
         Filme favorito = new Filme();
@@ -40,5 +42,10 @@ public class Principal {
         calculadora.Inclui(serie);
 
         System.out.println("Tempo total: " + calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filter(favorito);
+        filtro.filter(outro);
+        filtro.filter(favorito);
     }
 }

@@ -1,18 +1,12 @@
 package com.estudos.exercicios;
 
-public class Filme extends Titulo {
+import com.estudos.Modelos.Classificavel;
+
+public class Filme extends Titulo implements Classificavel {
     private String nome;
     private int anoDeLancamento;
     boolean incluidoNoPlano;
     private int duracaoEmMinutos;
-
-    // public Filme(int anoDeLancamento, String nome, String[] genero, int
-    // duracaoEmMinutos, boolean incluidoNoPlano,
-    // int totalDeAvaliacoes, int somaDasAvaliacoes) {
-    // this.anoDeLancamento = anoDeLancamento;
-    // super.getsomaDasAvaliacoes(duracaoEmMinutos);
-    // super.getTotalDeAvaliacoes();
-    // }
 
     void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
@@ -45,6 +39,11 @@ public class Filme extends Titulo {
 
     public int getDuracaoEmMinutos() {
         return duracaoEmMinutos;
+    }
+
+    @Override
+    public int getClassificacao() {
+        return (int) pegaMedia() / 2;
     }
 
 }
