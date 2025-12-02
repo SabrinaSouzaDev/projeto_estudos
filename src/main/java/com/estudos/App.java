@@ -1,11 +1,10 @@
 package com.estudos;
 
-import com.estudos.exercicios.CartaoPrincipal;
-import com.estudos.exercicios.Principal;
+import com.estudos.ExerciciosInterface.MainConversor;
 
 public class App {
     public static void main(String[] args) {
-        Principal.main(args);
+        MainConversor.main(args);
     }
 
 }
