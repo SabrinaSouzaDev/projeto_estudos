@@ -1,10 +1,10 @@
 package com.estudos;
 
-import com.estudos.ExerciciosInterface.MainConversor;
+import com.estudos.MinhasMusicas.MinhasMusicasPrincipal;
 
 public class App {
     public static void main(String[] args) {
-        MainConversor.main(args);
+        MinhasMusicasPrincipal.main(args);
     }
 
 }

@@ -1,6 +1,7 @@
 com\estudos\exercicios\Programa.class
 com\estudos\exercicios\Aluno.class
 com\estudos\exercicios\Cachorro.class
+com\estudos\MinhasMusicas\Musica.class
 com\estudos\exercicios\PrincipalCarros.class
 com\estudos\exercicios\PrincipalCarros$1ModeloCarro.class
 com\estudos\exercicios\CartaoPrincipal.class
@@ -30,6 +31,7 @@ com\estudos\exercicios\Pessoa.class
 com\estudos\exercicios\Saudacao.class
 com\estudos\exercicios\CalculadoraDeTempo.class
 com\estudos\exercicios\AlunoMedia.class
+com\estudos\MinhasMusicas\MinhasPreferidas.class
 com\estudos\exercicios\MediaAlunos.class
 com\estudos\exercicios\ForEachUse.class
 com\estudos\exercicios\Teste1.class
@@ -39,12 +41,15 @@ com\estudos\ExerciciosInterface\ConversorDeMoeda.class
 com\estudos\exercicios\Compra.class
 com\estudos\exercicios\Metodos.class
 com\estudos\exercicios\PrincipalCarros$1Carro.class
+com\estudos\MinhasMusicas\Audio.class
 com\estudos\exercicios\NumerosPrimos.class
 com\estudos\ExerciciosInterface\MainConversor.class
+com\estudos\MinhasMusicas\PodCast.class
 com\estudos\exercicios\LivrosAutor.class
 com\estudos\exercicios\Conta.class
 com\estudos\App.class
 com\estudos\exercicios\Produto.class
+com\estudos\MinhasMusicas\MinhasMusicasPrincipal.class
 com\estudos\exercicios\Carro.class
 com\estudos\exercicios\Carro$ModeloCarro.class
 com\estudos\exercicios\ModeloCarro.class
